@@ -15,11 +15,16 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "css")));
 
 app.get('/', function (req, res) {
-    res.redirect("/allindiainstitute");
+    res.redirect("/home");
 });
 
-app.get('/allindiainstitute', function (req, res) {
-    res.render("index.ejs");
- });
+app.get('/home', function (req, res) {
+    res.render("./layout/content.ejs");
+});
+
+app.get('/login', function (req, res) {
+    res.render("./login.ejs");
+});
+    
 
 app.listen(port);

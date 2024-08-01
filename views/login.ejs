@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <%- include('./layout/content.ejs') %>
+        <form action="/login" method="post">
+            <fieldset>
+                <legend><b>Login</b></legend>
+                <label required>USERNAME OR EMAIL ADDRESS</label><br>
+                <input type="text" name="username"><br>
+                <label required>PASSWORD</label><br>
+                <input type="password" name="password"><br>
+                <div class="info">
+                    <input type="checkbox" name="remember me">Remember me <br>
+                    <a href="">Lost Your Password ?<br>
+                    </div>
+                    <input type="submit" value="Login">Log in
+                </fieldset>
+        </form>
+    </body>
+</html>
