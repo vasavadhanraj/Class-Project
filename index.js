@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/allindiainstitute', function (req, res) {
-    res.render("header.ejs");
+    res.render("index.ejs");
  });
 
 app.listen(port);
