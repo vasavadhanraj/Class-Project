@@ -1,23 +1,48 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Login</title>
-    </head>
-    <body>
-        <%- include('./layout/content.ejs') %>
-        <form action="/login" method="post">
-            <fieldset>
-                <legend><b>Login</b></legend>
-                <label required>USERNAME OR EMAIL ADDRESS</label><br>
-                <input type="text" name="username"><br>
-                <label required>PASSWORD</label><br>
-                <input type="password" name="password"><br>
-                <div class="info">
-                    <input type="checkbox" name="remember me">Remember me <br>
-                    <a href="">Lost Your Password ?<br>
-                    </div>
-                    <input type="submit" value="Login">Log in
-                </fieldset>
-        </form>
-    </body>
-</html>
+<% layout("/layout/boilerplate.ejs") %>
+<div class="show">
+    <div class="mainContainer">
+        <form action="/login" method="">
+        <fieldset>
+            <legend>
+                <b>Login</b>
+            </legend>
+            <label>USERNAME OR EMAIL ADDRESS</label><br>
+            <input type="text" name="username" class="input-width input-top" required><br>
+            <label class="align-top">PASSWORD</label><br>
+            <input type="password" name="password" class="input-width input-top" required><br>
+            <div class="info-content align-top">
+                <input type="checkbox" name="remember me" class="align-me">Remember me 
+                <a href="">Lost Your Password ?<br></a><br>
+            </div>
+            <input type="submit" value="Login" class="input-width align-top input-color">
+        </fieldset>
+    </form>
+</div>
+<div class="register-box">
+    <form action="/register" class="form2">
+        <fieldset>
+            <legend>
+                <b>Register</b>
+            </legend>
+            <label>NAME</label><br>
+            <input type="text" name="name" class="input-width input-top" required><br>
+            <label>SURNAME</label><br>
+            <input type="text" name="surname" class="input-width input-top" required><br>
+            <label>USERNAME</label><br>
+            <input type="text" name="username" class="input-width input-top" required><br>
+            <label class="align-top">PASSWORD</label><br>
+            <input type="password" name="password" class="input-width input-top" required><br>
+            <label class="align-top">REPEAT PASSWORD</label><br>
+            <input type="password" name="repeatpassword" class="input-width input-top" required><br>
+            <label class="align-top">MOBILE NUMBER</label><br>
+            <input type="number" name="number" class="input-width input-top" maxlength="10" required><br>
+            <div class="info-content align-top">
+                <p>
+                    All Fields are required.
+                </p>
+            </div>
+            <input type="submit" value="Register" class="input-width input-color">
+        </fieldset>
+    </form>
+</div>
+</div>
