@@ -26,7 +26,11 @@ header{
     padding-top: 20px;
 }
 .search{
-    padding-top: 33px;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    /* padding-top: 33px; */
     margin-left: 200px;
 }
 
@@ -60,6 +64,11 @@ header{
 .login{
     padding-top: 33px;
     margin-left: 60px;
+}
+
+.login a{
+    color: white;
+    text-decoration: none;
 }
 
 .login-user{
@@ -301,4 +310,75 @@ footer{
 .inner-content a{
     text-decoration: none;
     color: aliceblue;
+}
+
+
+/* Login page styles */
+.mainContainer{
+    margin-left: 14%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    height: 400px;
+    width: 400px;
+}
+
+.mainContainer fieldset{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 20px;
+}
+
+.mainContainer input{
+    border-radius: 5px;
+}
+.input-width{
+    width: 100%;
+    padding: 10px;
+    background-color: lightskyblue;
+}
+
+.info-content a{
+    float: right;
+}
+
+.align-top{
+    margin-top: 12px;
+}
+.input-top{
+    margin-top: 5px;
+}
+.align-me{
+    margin-right: 5px;
+}
+
+.form2{
+    margin-left: 20%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    height: 700px;
+    width: 500px;
+}
+
+.form2 fieldset{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.show{
+    display: flex;
+}
+
+.input-color{
+    background-color: darkmagenta;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+.input-color:hover{
+    background-color: magenta;
+    color: yellow;
 }
