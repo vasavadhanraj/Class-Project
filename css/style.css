@@ -26,12 +26,12 @@ header{
     padding-top: 20px;
 }
 .search{
-    width: 400px;
+    width: 250px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     display: flex;
     /* padding-top: 33px; */
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 #value{
@@ -45,7 +45,7 @@ header{
 }
 
 .info{
-    margin-left: 160px;
+    margin-left: 250px;
     padding-top: 33px;
     color: white;
     text-shadow: 1px 1px 1px black;
@@ -80,8 +80,9 @@ header{
 }
 
 /* Navigation2 */
-.navbar {
-    padding-right: 20px;
+
+.move{
+    padding-left: 20px;
 }
 
 .navbar a{
@@ -167,6 +168,10 @@ header{
     width: 50px;
 }
 
+.box-1-inner-1{
+    padding-top: 60px;
+}
+
 .container2{
     height: 350px;
     margin-top: 70px;
@@ -219,17 +224,32 @@ header{
     padding-bottom: 10px;
 }
 
+.content-box1 .material-symbols-outlined{
+    padding-top: 20px;
+}
+
+.content-box1 img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .size{
     font-size: 70px !important;
 }
 
 .p-size{
+    margin-top: 40px;
     width: 270px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.new-align{
+    margin-top: 26px;
 }
 
 .container-3{
     text-align: center;
-    height: 600px;
+    height: 450px;
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -381,4 +401,40 @@ footer{
 .input-color:hover{
     background-color: magenta;
     color: yellow;
+}
+
+/* Next */
+.carrer-content{
+    margin-left: 120px;
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+}
+
+.span-1{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.cr-1{
+    display: flex;
+    text-align: center;
+}
+
+.carrer-content2{
+    margin-left: 370px;
+    margin-top: 100px;
+    width: 420px;
+    height: 200px;
+}
+
+.middle-1{
+    /* font-size: 40px; */
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.middle-2{
+    font-size: 90px;
+    margin-top: 220px;
 }

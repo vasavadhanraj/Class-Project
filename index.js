@@ -27,6 +27,9 @@ app.get('/home', function (req, res) {
 app.get('/login', function (req, res) {
     res.render("./login.ejs");
 });
-    
+
+app.get('/carrerafter12th', function (req, res) {
+    res.render("./carrer.ejs");
+});
 
 app.listen(port);
