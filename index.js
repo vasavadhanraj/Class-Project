@@ -32,4 +32,13 @@ app.get('/carrerafter12th', function (req, res) {
     res.render("./carrer.ejs");
 });
 
+app.get('/carrer-courses', function (req, res) {
+    res.render("./carrer-courses.ejs");
+});
+
+app.get('/gim-course', function (req, res) {
+    res.render("./gim-course.ejs");
+});
+
+
 app.listen(port);
