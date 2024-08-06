@@ -5,14 +5,15 @@ body{
 header{
     top: 0px;
     position: sticky;
-    width: auto;
-    height: 90px;
+    width: 100%;
+    height: 6rem;
     background-color: lightblue;
 }
 
 /* Navigation1 */
 .nav1{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 /* .header{
 } */
@@ -20,18 +21,22 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: cyan;
     text-shadow: 1px 1px 1px black;
+    align-items: start;
 }
 
 .logo img{
-    padding-top: 20px;
+    width: 10rem;
+    padding-top: 1rem;
+    /* padding-top: 20px; */
+    padding-bottom: 1rem;
 }
 .search{
-    width: 250px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    /* width: 250px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 15px; */
     display: flex;
-    /* padding-top: 33px; */
-    margin-left: 300px;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 #value{
@@ -45,8 +50,9 @@ header{
 }
 
 .info{
-    margin-left: 250px;
-    padding-top: 33px;
+    margin-left: 10%;
+    float: right;
+    padding-top: 20px;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
@@ -62,12 +68,12 @@ header{
 }
 
 .login{
-    padding-top: 33px;
-    margin-left: 60px;
+    width: 10%;
+    margin-left: 5%;
 }
 
 .login a{
-    color: white;
+    color: magenta;
     text-decoration: none;
 }
 
@@ -341,7 +347,6 @@ footer{
     height: 400px;
     width: 400px;
 }
-
 .mainContainer fieldset{
     border: 1px solid black;
     border-radius: 15px;
@@ -372,11 +377,13 @@ footer{
     margin-right: 5px;
 }
 
-.form2{
-    margin-left: 20%;
+.register-box{
+    height: 345px;
+    overflow-y: scroll;
     margin-top: 100px;
-    padding-bottom: 100px;
-    height: 700px;
+    margin-left: 6%;
+}
+.form2{
     width: 500px;
 }
 
@@ -405,10 +412,15 @@ footer{
 
 /* Next */
 .carrer-content{
-    margin-left: 120px;
-    margin-top: 100px;
+    margin-left: 70px;
+    margin-top: 80px;
     width: 300px;
     height: 200px;
+}
+
+.cr-flex i{
+    font-size: 40px;
+    padding-bottom: 4%;
 }
 
 .span-1{
@@ -416,25 +428,123 @@ footer{
     font-weight: bolder;
 }
 
-.cr-1{
+.cr-flex{
     display: flex;
+}
+.cr-1{
+    display: block;
     text-align: center;
 }
 
 .carrer-content2{
-    margin-left: 370px;
-    margin-top: 100px;
+    margin-left: 22%;
+    margin-top: 80px;
     width: 420px;
     height: 200px;
 }
 
+.carrer-center{
+    color: darkmagenta;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bolder;
+    margin-top: 240px;
+    text-align: center;
+    margin-left: 9%;
+    clear: both;
+}
 .middle-1{
-    /* font-size: 40px; */
-    margin-top: 120px;
-    margin-left: 120px;
+    font-size: 40px;
 }
 
 .middle-2{
     font-size: 90px;
     margin-top: 220px;
+}
+
+.cr-2{
+    padding: 40px;
+}
+.cr-head{
+    font-size: 30px;
+    font-weight: bolder;
+    color: deeppink;
+}
+
+.cr-body{
+    width: 40rem;
+}
+
+.cr-right{
+    float: right;
+}
+
+.cr-2 img{
+    width: 30%;
+}
+
+.img1{
+    float: right;
+}
+
+.cr-2-1{
+    clear: both;
+}
+
+
+/* Carrer Section */
+.courses-container{
+    margin-top: 50px;
+}
+
+.courses-container h3{
+    text-align: center;
+}
+
+.courses-container a{
+    text-decoration: none;
+}
+
+.courses-container hr{
+    width: 300px;
+    border-top: dashed;
+    border-width: 1px
+}
+
+.courses{
+    width: 57%;
+    padding: 3%;
+    margin-left: 20%;
+    border: 1px solid black;
+}
+
+.coding-courses{
+    float: right;
+}
+
+/* Gim Course  */
+.gim-container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gim-container .content{
+    display: flex;
+}
+
+.gim-image1{
+    width: 50%;
+}
+
+.gim-image2{
+    width: 40%;
+}
+
+.content-gim-1{
+    margin-left: 15%;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+
+.content-gim-2{
+    padding-left: 5%;
 }
