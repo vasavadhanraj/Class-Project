@@ -27,7 +27,6 @@ header{
 .logo img{
     width: 10rem;
     padding-top: 1rem;
-    /* padding-top: 20px; */
     padding-bottom: 1rem;
 }
 .search{
@@ -505,20 +504,26 @@ footer{
 }
 
 .courses-container hr{
-    width: 300px;
+    width: 280px;
     border-top: dashed;
     border-width: 1px
 }
 
 .courses{
-    width: 57%;
+    display: flex;
+    justify-content: center;
+    width: 55.5%;
     padding: 3%;
-    margin-left: 20%;
+    margin-left: 22%;
     border: 1px solid black;
 }
 
+.inner-course{
+    margin-top: 80px;
+}
+
 .coding-courses{
-    float: right;
+    margin-left: 15px;
 }
 
 /* Gim Course  */
@@ -547,4 +552,77 @@ footer{
 
 .content-gim-2{
     padding-left: 5%;
+}
+
+/* Contact */
+.contact-container h2{
+    text-align: center;
+}
+
+.contact-content{
+    width: 420px;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 460px;
+    padding: 20px;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+#btn1{
+    width: 100%;
+}
+
+/* About */
+.about-container{
+    display: flex;
+}
+
+.about-content{
+    padding-left: 20px;
+    background-color: black;
+    color: gold;
+}
+
+.about-info p{
+    width: 200px;
+}
+
+.about-container-qi{
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.about-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-info-t{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-overflow{
+    overflow-y: scroll;
+    height: 223px;
+}
+
+.about-box{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.about-box img{
+    height: 170px;
+}
+
+.para1{
+    width: 100%;
 }

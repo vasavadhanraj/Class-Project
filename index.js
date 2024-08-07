@@ -40,5 +40,11 @@ app.get('/gim-course', function (req, res) {
     res.render("./gim-course.ejs");
 });
 
+app.get('/contact-us', function (req, res) {
+    res.render("./contact.ejs");
+});
 
+app.get('/about-us', function (req, res) {
+    res.render("./about.ejs");
+});
 app.listen(port);

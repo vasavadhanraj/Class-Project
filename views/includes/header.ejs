@@ -1,3 +1,9 @@
+<script>
+  function OnClick(){
+    document.body.style.color = "red";
+}
+</script>
+
 <header>
   <div class="header">
     <nav class="nav1">
@@ -67,12 +73,6 @@
           <li class="nav-item">
             <a class="nav-link" href="/carrer-courses">Career</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Student Corner</a>
-          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -90,6 +90,15 @@
               <a class="dropdown-item" href="#">Design Courses</a>
               <a class="dropdown-item" href="#">Short Courses</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Student Corner</a>
+          </li>
+          <li class="nav-item" onclick="OnClick()">
+            <a class="nav-link" href="/about-us" >About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact-us">Contact us</a>
           </li>
         </ul>
       </div>
