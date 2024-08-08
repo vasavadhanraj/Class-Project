@@ -1,0 +1,53 @@
+<% layout("/layout/boilerplate.ejs") %>
+<br><br>
+<div class="grievance-container">
+    <!-- <h3>REGISTER GRIEVANCE</h3> -->
+    <form action="">
+        <fieldset>
+            <legend>REGISTER GRIEVANCE</legend>
+            <div class="display">
+                <input type="text" name="name" placeholder="Enter Your Name Here" required>
+                <input type="text" name="name" placeholder="Enter Your Email Here" required>
+            </div>
+            <div class="display">
+                <input type="text" name="name" placeholder="Enter Your GR ID Here" required>
+                <select name="department" id="select1">
+                    <option value="select department">Select Department</option>
+                    <option value="multimedia">Multimedia</option>
+                    <option value="fashion designing">Fashion Designing</option>
+                    <option value="international">International</option>
+                </select>
+            </div>
+            <div class="display2">
+                <select name="city" id="select2">
+                    <option value="select City">Select City</option>
+                    <option value="ahmedabad">Ahmedabad</option>
+                    <option value="amreli">Amreli</option>
+                    <option value="anand">Anand</option>
+                    <option value="bharuch">Bharuch</option>
+                    <option value="bhavnagar">Bhavnagar</option>
+                    <option value="gandhinagar">Gandhinagar</option>
+                    <option value="navsari">Navsari</option>
+                    <option value="rajkot">Rajkot</option>
+                    <option value="surat">Surat</option>
+                </select>
+            </div>
+            <div class="display2">
+                <select name="rw" id="select2">
+                    <option value="rw1">RW1 (A K Road)</option>
+                    <option value="rw2">RW2 (Yogi Chowk)</option>
+                    <option value="rw3">RW3 (Sarthana)</option>
+                    <option value="rw4">RW4 (Mota Varaccha)</option>
+                    <option value="rw5">RW5 (Ved Road)</option>
+                    <option value="rw6">RW6 (Adajan)</option>
+                    <option value="rw7">RW7 (Dindoli)</option>
+                    <option value="rw8">RW8 (Vesu)</option>
+                </select>
+            </div>
+            <div class="display2" >
+                <textarea name="text" placeholder="A Grievance You want to Describe Here" id="select2" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
+</div>

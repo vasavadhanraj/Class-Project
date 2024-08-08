@@ -40,11 +40,28 @@ app.get('/gim-course', function (req, res) {
     res.render("./gim-course.ejs");
 });
 
-app.get('/contact-us', function (req, res) {
-    res.render("./contact.ejs");
+app.get('/student-corner', function (req, res) {
+    res.render("./student.ejs");
+});
+
+app.get('/apply-for-job', function (req, res) {
+    res.render("./apply-job.ejs");
+});
+
+app.get('/grievance', function (req, res) {
+    res.render("./grievance.ejs");
+});
+
+app.get('/student-works', function (req, res) {
+    res.render("./student-works.ejs");
 });
 
 app.get('/about-us', function (req, res) {
     res.render("./about.ejs");
 });
+
+app.get('/contact-us', function (req, res) {
+    res.render("./contact.ejs");
+});
+
 app.listen(port);
