@@ -512,19 +512,19 @@ footer{
 .courses{
     display: flex;
     justify-content: center;
-    width: 55.5%;
+    width: 93.5%;
     padding: 3%;
-    margin-left: 22%;
+    margin-left: 4%;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.inner-course{
-    margin-top: 80px;
+.course-1{
+    margin-left: 2%;
 }
 
-.coding-courses{
-    margin-left: 15px;
+.inner-course{
+    margin-top: 80px;
 }
 
 /* Gim Course  */
@@ -816,13 +816,115 @@ footer{
 .all-designs img:hover{
     margin-top: 0px;
     margin-bottom: 10px;
-    /* animation-name: animatetop;
-    animation-duration: 4s ;
-    animation-delay: 1s; */
 }
 
-/* Animation  */
-/* @keyframes animatetop {
-    from {margin-top: 10px;}
-    to {margin-top: 0px;}
-} */
+/* Android Development */
+.android-container{
+    display: flex;
+}
+
+.android-content{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.android-image img{
+    margin: 20px;
+    margin-left: 0px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 450px;
+    height: 220px;
+}
+
+.android-data{
+    margin: 18px;
+    margin-left: 0px;
+}
+
+.android-data span{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.android-data .span2{
+    margin-left: 10px;
+}
+
+.android-data2 p{
+    height: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.course-modules{
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.program-a{
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.program-a a{
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.course-program h5{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.course-program ul{
+    color: gray;
+}
+
+.course-program #li1{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    list-style-type: none;
+}
+
+.course-program #li2{
+    margin-left: 10px;
+}
+
+
+.course-box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 28%;
+    padding: 10px;
+}
+
+.apply-course{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.apply-course a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none;
+}

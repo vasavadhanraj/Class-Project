@@ -40,6 +40,14 @@ app.get('/gim-course', function (req, res) {
     res.render("./gim-course.ejs");
 });
 
+app.get('/android-course', function (req, res) {
+    res.render("./android.ejs");
+});
+
+app.get('/flutter-course', function (req, res) {
+    res.render("./flutter.ejs");
+});
+
 app.get('/student-corner', function (req, res) {
     res.render("./student.ejs");
 });
